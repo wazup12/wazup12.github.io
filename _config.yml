@@ -1,12 +1,16 @@
 # The Site Configuration
 incremental: false
 
+# Allow future-dated posts
+future: true
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
 baseurl: '~all296'
+# DO NOT CHANGE
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -25,35 +29,33 @@ title: Alon Leshem # the main title
 tagline: Computer Science Student, University of Pittsburgh   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Alon Leshem's personal website.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://sites.pitt.edu'
-# website: 'https://sites.pitt.edu'
 
 github:
   username: wazup12 # change to your github username
 
 linkedin:
-  username: alon-leshem-77a5a3191 # change to your twitter username
+  username: alon-leshem-77a5a3191 # change to your linkedin username
 
-twitter:
-  username: LeshemAlon # change to your twitter username
+#twitter:
+  #username: LeshemAlon # change to your twitter username
 
 social:
   # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Alon Leshem
   email: a.leshem20%2bweb-contact@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    #- https://twitter.com/username      # change to your twitter homepage
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings

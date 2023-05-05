@@ -1,8 +1,8 @@
 ---
 title: First post on my website!
 date: 2023-02-25 04:36:00 -0500
-categories: [Misc]
-tags: []     # TAG names should always be lowercase
+categories: []
+tags: [misc]     # TAG names should always be lowercase
 author: alon
 math: true
 img_path: /assets/image
@@ -17,7 +17,7 @@ I already know how to use lists and stuff:
 - c
 
 But how do I use MathJax?
-$(\forall f,b \in E (f \text{ is a forward edge} \land b \text{ is a backward edge} \land f \text{ contains a residual capacity } \land b \text{ is non-empty})$
+$$(\forall f,b \in E (f \text{ is a forward edge} \land b \text{ is a backward edge} \land f \text{ contains a residual capacity } \land b \text{ is non-empty})$$
 
 ## Code
 Since I am a CS major, I need to be able to put in snippets both `inline` and as a block quote. Look at this C!
